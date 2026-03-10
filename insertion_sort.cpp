@@ -21,4 +21,12 @@ void input (){
     cout << "========Masukan Jumlah Data Pada Array========";
     cout << "==============================================";
 
-    
+    for (int i = 0; i < n; i++ ){
+    cout << "Data ke-" << (i+1) << ": ";
+    cin >> arr[i];
+    }
+}
+
+void insertionsort(){
+    int temp;
+    int j;
